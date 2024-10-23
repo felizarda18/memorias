@@ -1,1 +1,120 @@
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff8e1; /* Dourado muito claro como fundo */
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #b8860b; /* Dourado escuro */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav button {
+    background-color: white;
+    color: #b8860b; /* Dourado escuro */
+    border: 2px solid #b8860b;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+nav button:hover {
+    background-color: #daa520; /* Dourado médio ao passar o mouse */
+    color: white;
+}
+
+/* Seção de fotos */
+.gallery-section {
+    padding: 20px;
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.photo-card {
+    background-color: white;
+    border: 1px solid #f0e68c; /* Dourado claro nas bordas */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    width: 300px;
+    padding: 15px;
+}
+
+.photo-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.photo-card h2 {
+    color: #b8860b; /* Dourado escuro */
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.photo-card p {
+    font-size: 0.9em;
+    color: #555; /* Cinza escuro para a data */
+}
+
+/* Conclusão */
+.conclusion-section {
+    padding: 20px;
+    text-align: center;
+}
+
+.thanks-box {
+    background-color: #fffaf0; /* Dourado muito claro para a caixinha */
+    border: 1px solid #f0e68c; /* Dourado claro */
+    border-radius: 8px;
+    display: inline-block;
+    padding: 20px;
+    width: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.thanks-box h2 {
+    color: #b8860b; /* Dourado escuro */
+    margin-top: 0;
+}
+
+.thanks-box p {
+    font-size: 1.1em;
+    color: #555; /* Cinza escuro */
+}
+
+/* Rodapé */
+footer {
+    background-color: #b8860b; /* Dourado escuro */
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9em;
+}
 
